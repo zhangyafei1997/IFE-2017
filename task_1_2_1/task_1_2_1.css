@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+}
+#nav{
+    background:rgb(51,51,51);
+    height:60px;
+}
+body{
+    background-color: #DEDEDE;
+    font-family: 黑体;
+    line-height: 150%;
+    /*line-height: 不懂;*/
+}
+#logo{
+    width:150px;
+    height:50px;
+    /*float:left;*/
+}
+#nav  ul{
+    /*float:right;(也可以这么用)*/
+    position: absolute;
+    top:20px;
+    right:30px;
+}
+#nav ul li{
+    display:inline;
+    font-size: small;
+}
+ul li a{
+    color:white;
+    text-decoration: none;
+}
+ul li a:hover{
+    color:grey;
+    text-decoration: underline;
+}
+.block{
+    margin:20px;
+    padding:20px 20px;
+    background-color:white;
+    /*border-right:grey 2px solid;*/
+    /*border-bottom:grey 2px solid ;*/
+    border-style: outset;
+}
+a{
+    color: blue;
+}
+#no {
+    list-style: none;
+    margin-left: 20px;
+}
+dd{
+    width:120px;
+    border:1px solid grey;
+    margin:20px 50px;
+    padding:10px;
+    text-align: center;
+    /*为什么图片也可以居中*/
+    line-height: 200%;
+    /*line-height: 200%;不懂*/
+}
+ol{
+    margin:20px 50px;
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+td{
+    padding:5px;
+}
+thead{
+    color:white;
+}
+tbody{
+    font-size: small;
+}
+thead td,tbody td{
+    border:1px solid #CCCCCC;
+}
+/*为什么给table加border不行必须给td加border？*/
+/*为什么下面那个表格的td也会受影响？应该怎样实现？*/
+thead{
+    background-color: #333333;
+}
+tfoot{
+    background-color:#CCCCCC;
+}
+hr{
+   float:left;
+}
+#side h3{
+    position:relative;
+    left:20px;
+}
+#side {
+    margin-bottom:25px;
+    height:35px;
+    line-height: 35px;
+    /*为什么line-height和height设置为一样就垂直居中了？*/
+}
+ .right{
+    text-align:right;
+     /*为什么align:right无效*/
+}
+#submit{
+    border-radius: 15px;
+    color:white;
+    width:100%;
+    background-color:#3355D0;
+    height:40px;
+    font-size: large;
+}
+#two{
+   margin-left: 20%;
+}
+#two td{
+    border:0;
+}
+#footer{
+    font-family:arial;
+    color:white;
+    font-size: large;
+    background-color: black;
+    height: 80px;
+    width: 100%;
+   line-height: 80px;
+    /*垂直居中的几种方式？*/
+    text-align: center;
+}
+.indent{
+    text-indent: 2em;
+}
